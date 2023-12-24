@@ -1,0 +1,1130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.conatiner{
+    max-width: 1440px;
+    margin: 0 auto;
+    /* border: 0.5px solid rgba(128, 128, 128, 0.268); */
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+button{
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(#8B68FF, #7650F5);
+    outline: none;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* -----------header css starts from here------ */
+
+header{
+    height: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+.logo img{
+    display: block;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar ul li a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color: #333333;
+    margin: 0 20px;
+    transition: .2s;
+}
+
+.navbar ul li a:hover{
+    color: #7650F5 ;
+}
+
+.navbar button{ 
+    padding: 10px 24px;
+    margin-left: 50px;
+}
+
+
+/* -----------header css ends here------ */
+
+
+/* -----------hero starts from here------ */
+
+.hero-container{
+    display: flex;
+    /* background-color: aqua; */
+    position: relative;
+    height: 880px;
+    overflow: hidden;
+    align-items: center;
+}
+
+.hero-texts{
+    /* background-color: rgb(194, 157, 227); */
+    width: 45%;
+    padding-left: 104px;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.hero-texts h3{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.hero-texts h1{
+    font-size: 80px;
+    font-weight: 700;
+    color: #442F51;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.ui-ux-style{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 23px;
+}
+
+.line{
+    width: 136px;
+    height: 0;
+    border: 2px solid #442F51;
+}
+
+.ui-ux-style h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-left: 16px;
+    
+    background: var(--Gradient, linear-gradient(99deg, #8B68FF 16.43%, #7650F5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-texts p{
+    color: var(--Text-Body-Text, #666);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 37px;
+}
+
+.buttons-icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.buttons-icons button{
+    padding: 16px 48px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.buttons-icons button:hover{
+    background: #fff;
+    color: #7650F5;
+    border: 2px solid #8B68FF;
+}
+
+.icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.icons i{
+    font-size: 1.5rem ;
+    color: #fff;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.fa-dribbble{
+    background-color: rgba(234, 76, 137, 1);
+}
+
+.fa-behance{
+    background-color: rgba(17, 87, 255, 1);
+}
+
+.fa-instagram{
+    background-color: rgba(240, 0, 115, 1);
+}
+
+
+
+
+
+/* image design css */
+
+.position-absolute{
+    position: absolute;
+}
+
+.img-100-width{
+    width: 100%;
+    display: block;
+}
+
+.background{
+    top: 62px;
+    left: 832px;
+}
+
+.img-container{
+    width: 504px;
+    height: 480px;
+    top: 228px;
+    right: 180px;
+
+}
+
+.parvez-img{
+    top: 0;
+    right: 220px;
+}
+
+.play-button{
+    top: 165px;
+    right: 608px;
+}
+
+.xd{
+    top:239px ;
+    left: 1158px ;
+}
+
+.figma{
+    top: 431px ;
+    right: 617px ;
+}
+
+.star{
+    top: 662px;
+    right: 389px ;
+}
+
+/* image design css ends */
+
+
+/* -----------hero ends  here------ */
+
+/* -----------CV Starts  here------ */
+
+#cv-section{
+    padding: 77px 104px 190px 102px;
+    font-family: 'League Spartan', sans-serif;
+
+}
+
+.section-container{
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    gap: 104px;
+}
+
+.cv-image-bg{
+    width: 522px;
+    height: 550px;
+    background-color: #8B68FF;
+    top: 31px;
+    z-index: 1;
+    float: left;
+    margin-top: 31px;
+    border-radius: 10px;
+}
+
+.cv-image{
+    z-index: 3;
+    position: absolute;
+}
+
+.cv-texts{
+    margin-top: 99px;
+}
+
+.cv-texts h2{
+    font-size: 50px;
+    font-weight: 700;
+    color: #442F51;
+    font-family: 'League Spartan', sans-serif;
+    margin-bottom: 24px;
+    line-height: 63.98px;
+}
+
+.cv-texts p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.download-cv-button button{
+    padding: 9.5px 13.5px;
+    margin-top: 16px;
+}
+
+
+/* --------------CV ends  here------------ */
+
+/* -----------Our Works Starts  here------ */
+
+#our-work-section{
+    height: 1248px;
+    background-color: #F1F6FF;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.our-work-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 104px ;
+}
+
+.our-work-container h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 63.98px;
+    color: #442F51;
+    margin-bottom: 24px;
+}
+
+.our-work-container p{
+    color: #666;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 48px;
+}
+
+.work-bar ul{
+    display: flex;
+    gap:64px;
+    list-style-type: none;
+    margin-bottom: 48px;
+}
+
+.work-bar ul li{
+    color: var(--Text-Disable, #CCC);
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+
+    transition: all 0.3s ease;
+    border-bottom: 4px solid transparent;
+    padding-bottom: 14px;
+    cursor: pointer;
+}
+
+.work-bar ul li:hover{
+    color: #7A54F7;
+    border-bottom: 4px solid #8B68FF;
+}
+
+.work-grid-container{
+    display: grid;
+    grid-template-rows: repeat(2, 400px);
+    grid-template-columns: repeat(3, 400px);
+    grid-gap: 16px;
+}
+
+.grid-item1{
+    grid-row: 1/-1;
+    grid-column:1/2 ;
+}
+
+.grid-item2{
+    grid-row: 1/2;
+    grid-column: 2/3 ;
+
+    position: relative;
+    overflow: hidden;
+}
+
+/* grid item2 hover effect */
+
+.grid-item2 img{
+    transition: all 0.7s  ;
+}
+
+.item2-container{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    z-index: 3;
+    transform: translateX(-70px);
+    transition: all 0.4s ease-in-out;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay{
+    background: #7a54f7e0;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    visibility: hidden;
+    opacity: 0;
+    transition-duration: 0.3s;
+}
+
+.grid-item2:hover .overlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+.grid-item2:hover .item2-container{
+    transform: translateX(0);
+    visibility: visible;
+    opacity: 1;
+}
+
+.grid-item2:hover .item2-img{
+    transform: scale(1.1);
+}
+
+/* grid item2 hover effect ends */
+
+
+
+.grid-item3{
+    grid-row: 1/2;
+    grid-column: 3/4 ;
+}
+
+.grid-item4{
+    grid-row: 2/3;
+    grid-column: 2/4 ;
+}
+
+.item2-container{
+    padding: 40px;
+    text-align: left;
+}
+
+.item2-container h1{
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    color: #fff;
+    opacity: 0.6;
+}
+
+.item2-container p{
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.992px;
+    color: #fff;
+    text-align: left;
+}
+
+.read-more{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap:19px ;
+}
+
+.read-more button{
+    background: none;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.fa-arrow-right{
+    color: #fff;
+    padding-top: 2px ;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+
+
+
+/* -----------Our Works ends  here------ */
+
+/* -----------we do best starts  here------ */
+
+
+
+#what-we-do h1{
+    color: #442F51;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.984px; 
+
+    margin: 127px 0 72px 0;
+}
+
+.all-cards-container{
+    padding: 52px 152px 0 151px;
+}
+
+.row1{
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 124px;
+}
+
+.row2{
+    margin-bottom: 72px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 124px;
+}
+
+/* design of card */
+
+.card-wrapper{
+    height: 340px;
+}
+
+
+.card{
+    width: 400px;
+    height: 288px;
+    border-radius: 12px;
+    background-color: #E3E7FF;
+    position: relative;
+}
+
+
+.card-icon{
+    position: absolute;
+    padding: 29px;
+    background-color: #90ACF7;
+    border-radius: 50%;
+    top: -52px;
+    left: 31px;
+    z-index: 5;
+}
+
+.ellipes1{
+    position: absolute;
+    width: 67px;
+    height: 132px;
+    background-color: #DBDAFF;
+    border-top-left-radius: 132px;
+    border-bottom-left-radius: 132px;
+    top: 43px ;
+    left: 333px;
+    z-index: 2;
+}
+
+.ellipes2{
+    position: absolute;
+    width: 31px;
+    height: 67px;
+    background-color: #DBDAFF;
+    border-top-right-radius: 67px;
+    border-bottom-right-radius: 67px;
+    top: 197px ;
+    left: 0;
+    z-index: 2;
+}
+
+.card-texts{
+    position: absolute;
+    z-index: 4;
+    padding: 0 33px 0 39px;
+    top: 111px;
+}
+
+.card-texts h3{
+    color: #333;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 31.992px; 
+    margin-bottom: 17px;
+}
+
+.card-texts p{
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+
+
+.uiux-card{
+    background-color: #7E66F7;
+}
+
+.uiux-card-texts h3,
+.uiux-card-texts p{
+    color: #fff;
+}
+
+
+/* design of card ends */
+
+/* -----------we do best ends  here------ */
+
+/* -----------about us starts------ */
+
+
+.about-container{
+    background-color: #ECF2FE;
+    height: 720px;
+    position: relative;
+}
+
+/* background style */
+.ellipse-purple{
+    border-radius: 50%;
+    background-color: #7E66F7;
+}
+
+.ellipse-tomato{
+    border-radius: 50%;
+    background-color: #F9679A;
+}
+
+.p-big-1{
+    width: 120px;
+    height: 120px;
+    top: 80px;
+    left: 160px;
+}
+
+.p-big-2{
+    width: 120px;
+    height: 120px;
+    top: 248px;
+    right: 120px;
+}
+
+.p-small-1{
+    width: 40px;
+    height: 40px;
+    top: 352px;
+    left: 144px;
+}
+
+.p-small-2{
+    width: 40px;
+    height: 40px;
+    bottom: 56px;
+    left: 464px;
+}
+
+.t-medium-1{
+    width: 80px;
+    height: 80px;
+    top: 520px;
+    left: 152px;
+}
+
+.t-medium-2{
+    width: 80px;
+    height: 80px;
+    top: 544px;
+    right: 112px;
+}
+
+.t-small{
+    width: 40px;
+    height: 40px;
+    top: 96px;
+    right: 240px;
+}
+
+/* background style ends */
+
+.about-texts{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about-texts h2{
+    color: #442F51;
+    text-align: center;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58.984px;
+}
+
+.about-texts p{
+    color:  #666;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.about-us-update{
+    width: 816px;
+    height: 152px;
+    margin-top: 48px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 10px 40px 0px rgba(0, 0, 0, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.about-item h3{
+    color: #333;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 63.984px;
+}
+
+.about-item p{
+    color: #666;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+/* -----------about us ends------ */
+
+/* -----------testimonial section starts------ */
+
+.testimonial-container{
+    height: 720px;
+    display: flex;
+}
+
+.testimonial-texts{
+    width: 50%;
+    padding: 120px 0 0 80px;
+}
+
+.testimonial-texts h2{
+    color:#442F51;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+.testimonial-texts h3{
+    color: #442F51;
+    font-family: Raleway;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+.testimonial-texts p{
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+
+.name h4{
+color:  #333;
+font-variant-numeric: lining-nums proportional-nums;
+font-family: Raleway;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+}
+
+.name p{
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.arrow-div{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.arrow-div .arrow{
+    color: #7953F9;
+    font-size: 2rem;
+}
+
+/* img section */
+.testimonial-image-container{
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+}
+
+.testi-bg{
+    width: 592px;
+    height: 592px;
+    position: absolute;
+    bottom: -96px;
+    right: -131px;
+}
+
+.testimonial-image-container img{
+    position: absolute;
+    z-index: 2;
+    top: 120px;
+    right: 132px;
+}
+
+
+/* -----------testimonial section ends------ */
+
+/* -----------latest news starts------ */
+
+#latest-news-section{
+    padding: 112px 152px;
+}
+
+#latest-news-section h2{
+    color: var(--Text-Color, #442F51);
+    text-align: center;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    margin-bottom: 55px;
+}
+
+.news-card-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* news card design */
+.news-card{
+    width: 356px;
+    padding: 8px;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 3px 6px 60px -20px rgba(0, 0, 0, 0.20);
+}
+
+.news-card-detail{
+     padding: 32px 38px 41px 34px;
+}
+
+.news-card-detail h3{
+    color: #000;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; 
+    margin-bottom: 15px;
+}
+
+.news-card-detail p{
+    color: #7D7D7D;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 37px;
+}
+
+.news-card-button button{
+    background: transparent;
+    text-transform: uppercase;
+    color: #7953F9;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;
+}
+
+.news-card-date{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+}
+
+.news-card-date h4{
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 21px;
+}
+
+/* news card design ends*/
+
+/* -----------latest news ends------ */
+
+/* -----------contact us starts------ */
+
+#contact-us-section{
+    background-color: #ECF2FE;
+}
+
+.contact-us-contaier{
+    padding: 124px 152px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.get-in-touch{
+    width: 50%;
+    /* background-color: aqua; */
+}
+
+.get-in-touch h2{
+    color: #442F51;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.984px; 
+}
+
+.get-in-touch p{
+    color: #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+.contact-detail{
+    margin-top: 32px;
+}
+
+.phone{
+    display: flex;
+    gap: 16px;
+    margin-bottom: 32px;
+    align-items: center;
+}
+
+.phone i{
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    width: 64px;
+    height: 64px;
+    display: grid;
+    background-color: #7E66F7;
+    place-items: center;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.phone i:hover{
+    background-color: #F9679A;
+}
+
+
+.contact-number h6{ 
+    color:  #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+
+.contact-number p{
+    color:  #333;
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 31.992px;
+}
+
+form button{
+    padding: 16px 48px;
+}
+
+
+/* form design */
+form{
+    width: 504px;
+    padding: 40px;
+    border-radius: 8px;
+    background: linear-gradient(294deg, #FADFFF 14.04%, #D0D6FF 79.42%);
+}
+
+.contact-us h2{
+    color:  #442F51;
+    font-family: League Spartan;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 63.984px;
+}
+
+form label{
+    color:  #666;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    display: block;
+    margin-bottom: 8px;
+}
+
+input[type=text],
+input[type=email]{
+
+    width: 424px;
+    height: 56px;
+    border: 1px solid #A0BCF8;
+    border-radius: 8px;
+    background-color: #ECF2FE;
+    outline: none;
+    padding: 16px;
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+textarea{
+    width: 424px ;
+    height: 120px;
+    border: 1px solid #A0BCF8;
+    border-radius: 8px;
+    background-color: #ECF2FE;
+    outline: none;
+    padding: 16px;
+    font-size: 16px;
+    margin-bottom: 24px;
+
+    color: var(--Text-Default-in-Field, #999);
+    /* Paragraph Regular/16px */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    resize: none;
+}
+
+
+/* -----------contact us ends------ */
+
+/* -----------footer css starts------ */
+
+footer{
+    height: 120px;
+    background-color: #7E66F7;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 37px 147px 0 119px;
+}
+
+.footer p{
+    font-size: 1.2rem;
+    font-family: Roboto;
+    color: #fff;
+}
+
+.social-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    color: #fff;
+}
+
+.so-icon{
+    border: 1px solid #fff;
+    border-radius: 50%;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    background: transparent;
+
+    transition: all 0.3s ease;
+}
+
+.so-icon:hover{
+    background-color: #F9679A ;
+    border: 1px solid transparent;
+}
+
+
+/* -----------footer css ends------ */
+
+
